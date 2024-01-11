@@ -1,0 +1,249 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #a86b6b; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d9d2d2; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+nav{
+    background-color:  rgb(23, 78, 126);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    justify-content: space-between;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(125, 182, 236);
+    background-color:  rgb(125, 182, 233);
+    box-shadow: 2px 4px 6px 8px inset  rgb(109, 141, 169);
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-shadow:  4px 6px 8px red;
+    text-decoration-color: blueviolet;
+}
+video{
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5px;
+    
+}
+.overlay{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    
+}
+h1{
+    color: rgb(23, 78, 126);
+    
+}
+h1:hover{
+    text-shadow:  4px 6px 8px red;
+    color: chartreuse;
+}
+h2{
+    color: cadetblue;
+    
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+#home::before{
+    content: "";
+    background-image: url(https://images.newindianexpress.com/uploads/user/ckeditor_images/article/2017/4/17/A_COL.jpg);
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    padding: 50px;
+    font-size: xx-large;
+    top: 1000px;
+    left: 150px;
+    display: flex;
+    position: absolute;
+    /* box-shadow: 1px 2px 4px 6px inset white; */
+}
+.pic {
+    
+    display: flex;
+
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+    font-style: italic  ;
+    color: white;
+}
+h4{
+    text-align: center;
+    color:  rgb(23, 78, 126);
+}
+h3{
+    text-align: center;
+    text-shadow: 2px 4px 6px bisque;
+    color:  rgb(23, 78, 126);
+    margin: 15px;
+}
+#mt
+{
+    border: 1px solid white;
+    padding: 10px;
+
+}
+#mt p{
+    text-align: center;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+.gallery img{
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+    margin-top: 20px;
+    
+}
+.gallery img:hover{
+    box-shadow: 2px 3px 4px 6px cadetblue;
+    
+
+}
+#novel a{
+    border: 2px solid black;
+    margin-left: 900px;
+    padding: 5px;
+background-color: cadetblue;
+text-decoration: none;
+
+
+}
+#novel a:hover{
+    text-shadow: 1px 2px 3px blue;
+}
+#award ul{
+    border: 2px solid black;
+    width: 400px;
+    text-align: justify;
+    margin-left: 400px;
+    padding: 20px;
+    background-color: beige;
+}
+
+#award ul:hover{
+    box-shadow: 1px 2px 4px 6px cadetblue;
+}
+.row{
+    display: flex;
+}
+.box{
+    height: 550px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px inset black;
+    background:linear-gradient(to top,cadetblue 50%,bisque 50%);
+    transition: all 0,6s;
+    background-size: 100% 200%;
+}
+.box:hover{
+    background-position: right bottom;
+    box-shadow: 4px 5px 6px 8px black;
+
+}
+.box img{
+    width: 100%;
+    height: 200px;
+
+
+
+}
+footer{
+    background-color: bisque;
+    margin: 10px;
+}
+footer p{
+    color: cadetblue;
+    text-align: center;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 400px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: azure;
+    background-color: cadetblue;
+
+   
+}
+body{
+    background: linear-gradient(to top,white,black);
+}
+h3:hover{
+    background-color: beige;
+}
+
+span{
+    color: burlywood;
+    font-weight: lighter;
+}
+@media screen and (max-width:500px)
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: chartreuse;
+        color: black;
+    }
+    .row{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+.nav{
+    width: 500px;
+    background-color: aquamarine;
+    
+}
+
+    
+}
